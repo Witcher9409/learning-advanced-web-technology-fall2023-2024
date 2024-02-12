@@ -11,6 +11,3 @@ const course = teacher.createCourse('Advance Web Technologies');
 st1.enrollInCourse(course);
 st2.enrollInCourse(course);
 
-console.log(course.teacher);
-console.log(course.name);
-console.log(course.students);
