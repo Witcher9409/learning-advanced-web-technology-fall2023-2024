@@ -5,7 +5,5 @@ export class Teacher {
   constructor(name: string) {
     this.name = name;
   }
-  createCourse(name: string): Course {
-    return new Course(name, this);
-  }
+
 }
