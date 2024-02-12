@@ -5,7 +5,5 @@ export class Student {
   constructor(name: string) {
     this.name = name;
   }
-  enrollInCourse(course: Course) {
-    course.enrollStudent(this);
-  }
+
 }
